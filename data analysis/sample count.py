@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import numpy 
 
 # Définir les chemins des fichiers
 hust = '../data/HUST data'
@@ -11,6 +12,7 @@ tju1 = '../data/TJU data/Dataset_1_NCA_battery'
 tju2 = '../data/TJU data/Dataset_2_NCM_battery'
 tju3 = '../data/TJU data/Dataset_3_NCM_NCA_battery'
 xjtu = '../data/XJTU data'
+
 roots = [hust, mit1, mit2, mit3, tju1, tju2, tju3, xjtu]
 
 total_numbers = 0
